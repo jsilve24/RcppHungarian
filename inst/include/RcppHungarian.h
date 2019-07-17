@@ -15,7 +15,7 @@
 #ifndef HUNGARIAN_H
 #define HUNGARIAN_H
 
-#include <iostream>
+//#include <iostream>
 #include <vector>
 #include <stdlib.h>
 #include <cfloat> // for DBL_MAX
@@ -86,7 +86,8 @@ private:
     {
       value = distMatrixIn[row];
       if (value < 0)
-        cerr << "All matrix elements have to be non-negative." << endl;
+        throw std::invalid_argument("All matrix elements have to be non-negative.");
+        //cerr << "All matrix elements have to be non-negative."  << endl;
       distMatrix[row] = value;
     }
     
