@@ -8,11 +8,15 @@ Authors@R: c(person("Justin", "Silverman", role=c("aut", "cre"),
                      email = "Justin.Silverman@duke.edu"))
 Maintainer: Justin Silverman <Justin.Silverman@duke.edu>
 Description: Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem 
- using Huhn-Munkres algoritym (Hungarian Algorithym). This is a repackaging of code 
+ using Huhn-Munkres algorithym (Hungarian Algorithym). This is a repackaging of code 
  written by Cong Ma in the GitHub repo mcximing/hungarian-algorithm-cpp.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.1)
 LinkingTo: Rcpp
 Suggests: 
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown, 
+    ggplot2
 RoxygenNote: 6.1.1
+VignetteBuilder: knitr
