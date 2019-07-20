@@ -34,9 +34,9 @@ where $i\in \{1,\dots,N_H\}$ and  $j\in \{1,\dots,N_D\}$
 such that the total cost of the matchings $\sum_m C_{ij}$ is minimized. 
 
 The RcppHungarian package solves this type of problem (given $C$) using something called the 
-Hugarian algoritym (aka the Huhn-Munkres algorithym). This package wraps the C++
-code written by Cong Ma in the [hungarian-algoritym-cpp](https://github.com/mcximing/hungarian-algorithm-cpp/blob/master/Hungarian.h) library on GitHub. I have wrapped/edited that code in such a way that 
-the algoritym can be used either through the R interface `HungarianSolver` or
+Hugarian algorithm (aka the Huhn-Munkres algorithm). This package wraps the C++
+code written by Cong Ma in the [hungarian-algorithm-cpp](https://github.com/mcximing/hungarian-algorithm-cpp/blob/master/Hungarian.h) library on GitHub. I have wrapped/edited that code in such a way that 
+the algorithm can be used either through the R interface `HungarianSolver` or
 as a header-only C++ library which can be included in other packages. 
 
 # A Simple Example

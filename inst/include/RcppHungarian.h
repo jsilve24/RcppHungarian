@@ -20,6 +20,7 @@
 #include <stdlib.h>
 #include <cfloat> // for DBL_MAX
 #include <cmath>  // for fabs()
+#include <stdexcept>
 
 using namespace std;
 
@@ -86,7 +87,7 @@ private:
     {
       value = distMatrixIn[row];
       if (value < 0)
-        throw std::invalid_argument("All matrix elements have to be non-negative.");
+        throw std::runtime_error("All matrix elements have to be non-negative.");
         //cerr << "All matrix elements have to be non-negative."  << endl;
       distMatrix[row] = value;
     }

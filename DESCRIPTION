@@ -1,14 +1,13 @@
 Package: RcppHungarian
 Type: Package
-Title: Hungarian Algoritym to Solve Minimum Cost Bipartite Matching Problems
+Title: Hungarian Algorithm to Solve Minimum Cost Bipartite Matching Problems
 Version: 0.1
 Date: 2019-07-16
-Author: Justin Silverman
 Authors@R: c(person("Justin", "Silverman", role=c("aut", "cre"),
                      email = "Justin.Silverman@duke.edu"))
 Maintainer: Justin Silverman <Justin.Silverman@duke.edu>
 Description: Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem 
- using Huhn-Munkres algorithym (Hungarian Algorithym). This is a repackaging of code 
+ using Huhn-Munkres algorithm (Hungarian algorithm). This is a repackaging of code 
  written by Cong Ma in the GitHub repo mcximing/hungarian-algorithm-cpp.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.1)
@@ -20,3 +19,4 @@ Suggests:
     ggplot2
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
+URL: https://github.com/jsilve24/RcppHungarian
