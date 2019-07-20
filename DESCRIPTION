@@ -15,8 +15,9 @@ LinkingTo: Rcpp
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
-    rmarkdown, 
-    ggplot2
+    rmarkdown,
+    ggplot2,
+    covr
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 URL: https://github.com/jsilve24/RcppHungarian

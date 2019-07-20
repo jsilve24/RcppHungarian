@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/jsilve24/RcppHungarian.svg?branch=master)](https://travis-ci.org/jsilve24/RcppHungarian)
+[![Codecov test coverage](https://codecov.io/gh/jsilve24/RcppHungarian/branch/master/graph/badge.svg)](https://codecov.io/gh/jsilve24/RcppHungarian?branch=master)
 <!-- badges: end -->
 
 RcppHungarian provides both C++ Headers and R wrappers for the 
