@@ -22,7 +22,7 @@ Suppose you have $N_H$ humans and $N_D$ dogs that need adoption.
 Each human wants a dog and each dog wants a human. 
 However humans and dogs may differ in their energy levels. 
 A high-energy dog can ruin a house if he doesn't get enough exercize and a 
-high-energy human may be annoyed if their dog is not up for their desi2 activities. 
+high-energy human may be annoyed if their dog is not up for their desired activities. 
 Therefore you could imagine there is some "cost" of assigning dog $j$ to human $i$ we we could 
 denote $C_{ij}$. *The problem is to find the optimal matching between dogs and humans
 to minimize cost.* Finally we require that whichever group has fewer (fewer dogs or fewer humans)
