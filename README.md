@@ -4,9 +4,7 @@
 [![Travis build status](https://travis-ci.org/jsilve24/RcppHungarian.svg?branch=master)](https://travis-ci.org/jsilve24/RcppHungarian)
 <!-- badges: end -->
 
-RcppHungarian provides both C++ Headers and R wrappers for the 
-Hungarian Algorithm (aka Huhn-Munkres algorithm) for solving minimum cost bipartite matching problems.
-Borrows heavily from code written by Cong Ma in the GitHub repo mcximing/hungarian-algorithm-cpp.
+Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem using Huhn-Munkres algorithm (Hungarian algorithm; https://en.wikipedia.org/wiki/Hungarian_algorithm; Kuhn (1955) doi:10.1002/nav.3800020109).This is a repackaging of code written by Cong Ma in the GitHub repo https://github.com/mcximing/hungarian-algorithm-cpp.
 
 ## Installation
 

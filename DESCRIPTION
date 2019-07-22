@@ -7,8 +7,9 @@ Authors@R: c(person("Justin", "Silverman", role=c("aut", "cre"),
                      email = "Justin.Silverman@duke.edu"))
 Maintainer: Justin Silverman <Justin.Silverman@duke.edu>
 Description: Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem 
- using Huhn-Munkres algorithm (Hungarian algorithm). This is a repackaging of code 
- written by Cong Ma in the GitHub repo mcximing/hungarian-algorithm-cpp.
+ using Huhn-Munkres algorithm (Hungarian algorithm; https://en.wikipedia.org/wiki/Hungarian_algorithm;
+ Kuhn (1955) doi:10.1002/nav.3800020109). 
+ This is a repackaging of code written by Cong Ma in the GitHub repo https://github.com/mcximing/hungarian-algorithm-cpp.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.1)
 LinkingTo: Rcpp
