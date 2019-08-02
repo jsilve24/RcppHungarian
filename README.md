@@ -8,8 +8,13 @@ Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem 
 
 ## Installation
 
-CRAN install coming soon. For the moment:
+You can install the released version of RcppHungarian from [CRAN](https://CRAN.R-project.org) with:
 
+``` r
+install.packages("RcppHungarian")
+```
+
+Or the GitHub Version with:
 ``` r
 devtools::install_github("jsilve24/RcppHungarian")
 ```
