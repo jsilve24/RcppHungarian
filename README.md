@@ -2,6 +2,8 @@
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/jsilve24/RcppHungarian.svg?branch=master)](https://travis-ci.org/jsilve24/RcppHungarian)
+[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
+[![CRAN](http://www.r-pkg.org/badges/version/RcppHungarian)](https://cran.r-project.org/package=RcppHungarian) 
 <!-- badges: end -->
 
 Header Library and R Functions to Solve Minimum Cost Bipartite Matching Problem using Huhn-Munkres algorithm (Hungarian algorithm; https://en.wikipedia.org/wiki/Hungarian_algorithm; Kuhn (1955) doi:10.1002/nav.3800020109).This is a repackaging of code written by Cong Ma in the GitHub repo https://github.com/mcximing/hungarian-algorithm-cpp.
