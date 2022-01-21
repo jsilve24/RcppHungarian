@@ -86,9 +86,9 @@ private:
     for (row = 0; row<nOfElements; row++)
     {
       value = distMatrixIn[row];
-      if (value < 0)
-        throw std::runtime_error("All matrix elements have to be non-negative.");
-        //cerr << "All matrix elements have to be non-negative."  << endl;
+      // if (value < 0)
+      //   throw std::runtime_error("All matrix elements have to be non-negative.");
+      //   //cerr << "All matrix elements have to be non-negative."  << endl;
       distMatrix[row] = value;
     }
     
