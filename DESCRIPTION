@@ -1,13 +1,13 @@
 Package: RcppHungarian
 Type: Package
 Title: Solves Minimum Cost Bipartite Matching Problems
-Version: 0.1
-Date: 2019-07-16
+Version: 0.2
+Date: 2022-01-21
 Authors@R: c(person("Justin", "Silverman", role=c("aut", "cre"),
                      email = "Justin.Silverman@duke.edu"), 
              person("Cong", "Ma", role=c("ctb", "cph")), 
              person("Markus", "Buehren", role=c("ctb", "cph")))
-Maintainer: Justin Silverman <Justin.Silverman@duke.edu>
+Maintainer: Justin Silverman <JustinSilverman@psu.edu>
 Copyright: See file COPYRIGHT for details
 Description: Header library and R functions to solve minimum cost bipartite matching problem 
  using Huhn-Munkres algorithm (Hungarian algorithm; <https://en.wikipedia.org/wiki/Hungarian_algorithm>;
