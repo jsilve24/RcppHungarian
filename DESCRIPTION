@@ -4,7 +4,7 @@ Title: Solves Minimum Cost Bipartite Matching Problems
 Version: 0.2
 Date: 2022-01-21
 Authors@R: c(person("Justin", "Silverman", role=c("aut", "cre"),
-                     email = "Justin.Silverman@duke.edu"), 
+                     email = "JustinSilverman@psu.edu"), 
              person("Cong", "Ma", role=c("ctb", "cph")), 
              person("Markus", "Buehren", role=c("ctb", "cph")))
 Maintainer: Justin Silverman <JustinSilverman@psu.edu>
