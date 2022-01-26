@@ -11,7 +11,7 @@ Maintainer: Justin Silverman <JustinSilverman@psu.edu>
 Copyright: See file COPYRIGHT for details
 Description: Header library and R functions to solve minimum cost bipartite matching problem 
  using Huhn-Munkres algorithm (Hungarian algorithm; <https://en.wikipedia.org/wiki/Hungarian_algorithm>;
- Kuhn (1955) doi:10.1002/nav.3800020109). 
+ Kuhn (1955) <doi:10.1002/nav.3800020109>). 
  This is a repackaging of code written by Cong Ma in the GitHub repo <https://github.com/mcximing/hungarian-algorithm-cpp>.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.1)
