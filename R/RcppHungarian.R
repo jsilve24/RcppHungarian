@@ -9,6 +9,7 @@
 #'  
 #' @docType package
 #' @name RcppHungarian_package
+#' @aliases RcppHungarian-package
 #' 
 #' @useDynLib RcppHungarian
 #' @importFrom Rcpp sourceCpp

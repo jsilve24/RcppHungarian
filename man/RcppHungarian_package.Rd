@@ -3,7 +3,7 @@
 \docType{package}
 \name{RcppHungarian_package}
 \alias{RcppHungarian_package}
-\alias{RcppHungarian_package-package}
+\alias{RcppHungarian-package}
 \title{RcppHungarian}
 \description{
 Header Library and R Functions to Solve Minimum Cost Bipartite Matching 

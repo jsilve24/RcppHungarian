@@ -5,3 +5,4 @@ inst/doc
 /..Rcheck
 /.Rhistory
 /RcppHungarian_0.2.tar.gz
+/*.gz
