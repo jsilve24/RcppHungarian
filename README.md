@@ -1,7 +1,6 @@
 # RcppHungarian
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/jsilve24/RcppHungarian.svg?branch=master)](https://travis-ci.org/jsilve24/RcppHungarian)
 [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
 [![CRAN](http://www.r-pkg.org/badges/version/RcppHungarian)](https://cran.r-project.org/package=RcppHungarian) 
 <!-- badges: end -->
