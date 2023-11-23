@@ -27,6 +27,14 @@ List HungarianSolver(NumericMatrix costMatrix) {
   int nr = costMatrix.nrow();
   int nc = costMatrix.ncol();
   
+  if (nr == 0 || nc == 0) {
+    List out(2);
+    out[0] = 0;
+    out[1] = NumericMatrix::create(0, 2);
+    out.names() = CharacterVector::create("cost", "pairs");
+    return out;
+  }
+  
   vector<double> c(nc);
   vector<vector<double>> cm(nr, c);
   for (int i=0; i < nr; i++){
