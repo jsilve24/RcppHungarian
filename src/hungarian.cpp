@@ -30,6 +30,7 @@ List HungarianSolver(NumericMatrix costMatrix) {
   if (nr == 0 || nc == 0) {
     List out(2);
     out[0] = 0;
+    out[1] = NumericMatrix::create(0, 2);
     out.names() = CharacterVector::create("cost", "pairs");
     return out;
   }
